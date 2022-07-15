@@ -4,7 +4,7 @@ const normalPerson = {
     salary: 15000,
 
     chargeBill: function (amount) {
-        //console.log(this);
+        console.log(this); // for shows default value
         this.salary = this.salary - amount;
         return this.salary;
     }
