@@ -23,3 +23,11 @@ setTimeout(() => {
     console.log(888);
 }, 3000); // 3second por (terminal a) execute hocche 888
 console.log(999);
+
+// kichu smy por por kono kaj bar bar korbe, amon korte chaile setInterval diye korte hoy
+// Ex-1
+console.log(100);
+setInterval(() => {
+    console.log(200); //3second por por (terminal a) execute hote thakbe 200
+}, 3000);
+console.log(300);
