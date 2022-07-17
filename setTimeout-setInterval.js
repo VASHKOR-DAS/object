@@ -7,3 +7,11 @@ setTimeout(function () {
     console.log(222)
 })
 console.log(333);
+
+// Ex-1 (others way)
+function dosomething() {
+    console.log(555)
+}
+console.log(444);
+dosomething();
+console.log(666);
